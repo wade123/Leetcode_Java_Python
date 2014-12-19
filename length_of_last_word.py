@@ -11,4 +11,4 @@ class Solution:
         	while s[i] != ' ' and i >= 0:
 			le += 1
             		i -= 1
-        	return le
+        	return le  
