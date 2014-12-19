@@ -20,4 +20,4 @@ class Solution:
         if (a == '[' and b == ']') or (a == '{' and b == '}') or (a == '(' and b == ')'):
             return True
         else:
-            return False
+            return False   
