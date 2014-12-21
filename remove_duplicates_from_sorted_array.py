@@ -10,7 +10,7 @@ class Solution:
                 continue
             else:
                 j += 1
-                A[j] = A[i]
+                A[j] = A[i]  #note that i must be increased before assignment
         return j + 1
 
 '''Version 2'''
