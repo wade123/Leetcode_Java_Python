@@ -8,7 +8,7 @@ class Solution:
     
     def revpos(self,x):
         x = int(str(x)[::-1])
-        if x < 2**31:
+        if x < 2**31: # signed 32bit int max_value
             return x
         else:
             return 0
