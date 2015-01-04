@@ -5,7 +5,7 @@ class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid):
         m = len(obstacleGrid)
         n = len(obstacleGrid[0])
-        res = [[0 for i in xrange(n)] for j in xrange(m)]
+        res = [[0 for i in xrange(n)] for j in xrange(m)] # res = [[0] * n] * m do not work, I don't know why, welcome discuss!
         for i in xrange(n):
             if obstacleGrid[0][i] == 0:  res[0][i] = 1
             else:  break
