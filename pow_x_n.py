@@ -8,7 +8,4 @@ class Solution:
 
     def powPos(self, x, n):
         if n == 1:  return x
-        if n % 2 == 0:
-            return self.powPos(x * x, n / 2)
-        if n % 2 == 1:
-            return x * self.powPos(x * x, (n - 1) / 2)
+        return self.powPos(x * x, n / 2) if n % 2 == 0 else x * self.powPos(x * x, (n - 1) / 2)
