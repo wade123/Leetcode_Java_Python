@@ -77,7 +77,7 @@ public class IntegerToEnglishWords {
 
     public static void main(String[] args) {
         IntegerToEnglishWords test = new IntegerToEnglishWords();
-        int n = 1000;
+        int n = 1234567819;
         System.out.println(test.numberToWords(n));
     }
 }
